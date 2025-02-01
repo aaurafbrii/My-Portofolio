@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Muhammad Rizky Ramadhan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skill">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Muhammad Rizky Ramadhan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skill" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profile 1.PNG" alt="Muhammad Rizky Ramadhan picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Muhammad Rizky Ramadhan</h1>
+        <p class="section__text__p2">Designer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Rizky CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/Instagram Logo.png"
+            alt="My Instagram"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/rriingg?igsh=bXphMDZpZmMyeHFj'"
+          />
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkedin"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/muhammad-rizky-ramadhan-2499851a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Profile 2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Halo, saya Rizky Ramadhan, seorang pekerja di bidang visual yang saat ini fokus menekuni desain grafis. Dengan pengalaman dan semangat untuk terus belajar, saya juga tertarik mengembangkan kemampuan di bidang video editing, motion graphics, dan berbagai bentuk seni digital lainnya.
+              Bagi saya, bekerja dengan hati bukan hanya sebuah prinsip, tetapi juga cara saya menghargai setiap pekerjaan yang saya lakukan. Saya percaya bahwa totalitas, tanggung jawab, dan rasa hormat terhadap rekan kerja adalah fondasi penting untuk menciptakan hasil yang berkualitas dan relevan.
+              Selain itu, eksplorasi ide-ide baru dan keberanian mencoba hal-hal yang berbeda adalah cara saya beradaptasi dan bertahan dalam industri kreatif yang dinamis. Saya percaya bahwa kreativitas tanpa batas adalah kunci untuk menciptakan karya yang tidak hanya memukau, tetapi juga memiliki nilai dan dampak positif.
+              Terima kasih telah mengunjungi portofolio saya. Saya berharap dapat berkolaborasi dan menciptakan sesuatu yang luar biasa bersama Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Skill'"
+      />
+    </section>
+    <section id="Skill">
+      <h1 class="title">Skill</h1>
+      <div class="Skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Illustratorr</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe After Effect</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Premiere Pro</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+                <div>
+                  <h3>Canva</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CapCut</h3>
+                </div>
+              </article>
+              <article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+<section id="projects">
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers grid-container">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project 1.jpg" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="font-style: italic; font-family: 'Times New Roman', Times, serif;">What News</h2>
+        <div class="btn-container"></div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project 2.jpg" alt="Project 2" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="font-style: italic; font-family: 'Times New Roman', Times, serif;">The Rumble In The Jungle</h2>
+        <div class="btn-container"></div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project 3.jpg" alt="Project 3" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="font-style: italic; font-family: 'Times New Roman', Times, serif;">Mastermind</h2>
+        <div class="btn-container"></div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Project 4.jpg" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="font-style: italic; font-family: 'Times New Roman', Times, serif;">Dancing All The Night</h2>
+        <div class="btn-container"></div>
+      </div>
+    </div>
+  </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mrrizkyramadhan12@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/muhammad-rizky-ramadhan-2499851a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skill">Skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Muhammad Rizky Ramadhan.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
